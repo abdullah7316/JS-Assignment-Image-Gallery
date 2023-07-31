@@ -1,4 +1,12 @@
 
+//     This is just JS file. If someone wants to see al files. 
+//     Please visit GitHub Repository. 
+//     I have iploaded all files on https://github.com/abdullah7316/JS-Assignment-Image-Gallery.git
+
+//    Click On Below Link to See Final Live Image Gallery
+//    https://abdullah7316.github.io/JS-Assignment-Image-Gallery/
+
+
 let container = document.getElementById('thumbnail');
 
 const xhr1 = new XMLHttpRequest();
@@ -15,12 +23,12 @@ xhr1.onreadystatechange = function () {
 }
 xhr1.send();
 
-//Function to show loading.gif
+//Function to show loading.gif while http request is on progress
 function showLoading() {
     container.innerHTML = `<img src="images/loading.gif" alt="Loading Please Wait" style="margin: 0 auto;">`;
 }
 
-//Function to show my images
+//Function to show images
 function showImages(path) {
     console.log('Clicked on card : ' + path)
     $('.card').slideUp('slow');
