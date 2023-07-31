@@ -1,7 +1,7 @@
 
-//     This is just JS file. If someone wants to see al files. 
+//     This is just JS file. If someone wants to see all files. 
 //     Please visit GitHub Repository. 
-//     I have iploaded all files on https://github.com/abdullah7316/JS-Assignment-Image-Gallery.git
+//     I have uploaded all files on https://github.com/abdullah7316/JS-Assignment-Image-Gallery.git
 
 //    Click On Below Link to See Final Live Image Gallery
 //    https://abdullah7316.github.io/JS-Assignment-Image-Gallery/
