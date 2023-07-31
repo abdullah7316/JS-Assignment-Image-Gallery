@@ -1,0 +1,22 @@
+@media (max-width:760px) {
+    #thumbnail{
+        grid-template-columns: auto;
+        grid-gap: 30px;
+        margin: 30px;
+        padding: 15px;
+    }
+    #show-full-images img{
+        width: 70vw;
+    }
+    #show-full-images span{
+        font-size: 36px;
+        color: orange;
+    }
+    #show-full-images #cross-icon{
+        font-size: 26px;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        color: red;
+    }
+}
